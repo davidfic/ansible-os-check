@@ -1,6 +1,6 @@
 ---
 - hosts: 10.211.55.3 
-  become: yes
+  gather_facts: yes
   roles:
     - os-check
 
