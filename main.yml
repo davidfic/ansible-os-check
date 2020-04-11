@@ -1,5 +1,5 @@
 ---
-- hosts: localhost 
+- hosts: 10.211.55.3 
   become: yes
   roles:
     - os-check
